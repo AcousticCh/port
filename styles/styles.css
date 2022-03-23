@@ -1,0 +1,70 @@
+* {
+    background-color: #649264;
+}
+
+.information-flex {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid #333;
+    box-shadow: 1rem 1rem 20px 0px;
+    margin-bottom: 2.5rem;
+}
+
+.picture {
+    width: 40%;
+    height: auto;
+}
+.text-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-name {
+    
+}
+
+.info-text {
+
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.project-folder-link-1 {
+    border: 3px solid #333;
+    box-shadow: 1rem 1rem 20px 0px;
+    margin: 0.5rem;
+    width: max-content;
+    border-radius: 0.50rem;
+}
+
+.project-folder-link-2 {
+    border: 3px solid #333;
+    box-shadow: 1rem 1rem 20px 0px;
+    margin: 0.5rem;
+    width: max-content;
+    border-radius: 0.50rem;
+}
+
+.project-folder-link-3 {
+    border: 3px solid #333;
+    box-shadow: 1rem 1rem 20px 0px;
+    margin: 0.5rem;
+    width: max-content;
+    border-radius: 0.50rem;
+}
+
+.project-folder-link-1:hover {
+    border: 5px solid rgb(65, 18, 65, 0.7);
+}
+
+.project-folder-link-2:hover {
+    border: 5px solid rgb(65, 18, 65, 0.7);
+}
+
+.project-folder-link-3:hover {
+    border: 5px solid rgb(65, 18, 65, 0.7);
+}

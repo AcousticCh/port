@@ -41,6 +41,10 @@
     border-radius: 0.50rem;
 }
 
+.project-folder-link-1 ul:hover {
+    opacity: 0;
+}
+
 .project-folder-link-2 {
     border: 3px solid #333;
     box-shadow: 1rem 1rem 20px 0px;
@@ -49,12 +53,20 @@
     border-radius: 0.50rem;
 }
 
+.project-folder-link-2 ul:hover {
+    opacity: 0;
+}
+
 .project-folder-link-3 {
     border: 3px solid #333;
     box-shadow: 1rem 1rem 20px 0px;
     margin: 0.5rem;
     width: max-content;
     border-radius: 0.50rem;
+}
+
+.project-folder-link-3 ul:hover {
+    opacity: 0;
 }
 
 .project-folder-link-1:hover {

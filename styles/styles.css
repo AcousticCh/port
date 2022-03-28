@@ -14,7 +14,7 @@
 
 .picture {
     width: 40%;
-    height: auto;
+    min-height: 20em;
 }
 .text-flex {
     display: flex;
@@ -31,15 +31,13 @@
 
 .link-container {
     display: flex;
-    justify-content: space-around;
-    
-
 }
+
 .project-folder-link-1 {
     border: 3px solid #333;
     box-shadow: 1rem 1rem 20px 0px;
-    margin: 0.5rem;
-    width: max-content;
+    
+    width: 33%;
     border-radius: 0.50rem;
 }
 
@@ -50,8 +48,8 @@
 .project-folder-link-2 {
     border: 3px solid #333;
     box-shadow: 1rem 1rem 20px 0px;
-    margin: 0.5rem;
-    width: max-content;
+    
+    width: 33%;
     border-radius: 0.50rem;
 }
 
@@ -62,8 +60,8 @@
 .project-folder-link-3 {
     border: 3px solid #333;
     box-shadow: 1rem 1rem 20px 0px;
-    margin: 0.5rem;
-    width: max-content;
+    
+    width: 33%;
     border-radius: 0.50rem;
 }
 
@@ -72,25 +70,44 @@
 }
 
 .project-folder-link-1:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 5px solid rgb(65, 18, 65, 0.7);
 }
 
 .project-folder-link-2:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 5px solid rgb(65, 18, 65, 0.7);
 }
 
 .project-folder-link-3:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 5px solid rgb(65, 18, 65, 0.7);
 }
 
 .link-button-1 {
-    background-color: black;
+    border: 2px solid rgb(65, 18, 65, 0.7);
+    border-radius: 4rem;
+    height: 4em;
+    /*put inside variable for link buttons*/
 }
 
 .link-button-2 {
-    background-color: black;
+    border: 2px solid rgb(65, 18, 65, 0.7);
+    border-radius: 4rem;
+    height: 4em;
+
 }
 
 .link-button-3 {
-    background-color: black;
+    border: 2px solid rgb(65, 18, 65, 0.7);
+    border-radius: 4rem;
+    height: 4em;
+    box-shadow: 0.25em 0.25em 10px 0px;
+
 }
